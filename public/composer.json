@@ -1,0 +1,13 @@
+{
+    "name": "macbookpro/class17-18php",
+    "description": "\"A simple PHP project for class assignments.\"",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Macbookpro\\Class1718php\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
