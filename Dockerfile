@@ -15,3 +15,5 @@ EXPOSE 80
 
 # Start Apache when the container runs
 CMD ["apache2-foreground"]
+# Set default index file
+RUN echo "DirectoryIndex index.php index.html" >> /etc/apache2/apache2.conf
